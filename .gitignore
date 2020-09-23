@@ -1,0 +1,6 @@
+/*
+!.git/
+!.gitignore
+!default/
+!ssh/
+!ssh/sshd_config
