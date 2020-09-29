@@ -6,3 +6,5 @@
 !ssh/sshd_config
 !sshguard/
 !apt/
+!scripts/
+mrt/
