@@ -1,0 +1,6 @@
+APT::Periodic::Update-Package-Lists "1";
+APT::Periodic::Download-Upgradeable-Packages "1";
+// Runs weekly
+APT::Periodic::AutocleanInterval "7";
+// Runs "unattened-upgrade" daily
+APT::Periodic::Unattended-Upgrade "1";
