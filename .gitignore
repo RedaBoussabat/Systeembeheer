@@ -7,4 +7,5 @@
 !sshguard/
 !apt/
 !scripts/
+!sudoers
 mrt/
