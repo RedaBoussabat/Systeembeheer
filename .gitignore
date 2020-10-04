@@ -8,4 +8,5 @@
 !apt/
 !scripts/
 !sudoers
+!ntp.conf
 mrt/
