@@ -13,7 +13,7 @@ Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/b
 # Host alias specification
 
 # User alias specification
-# Cmnd alias specification
+# Cmnd alias specification test
 
 # User privilege specification
 root	ALL=(ALL:ALL) ALL
