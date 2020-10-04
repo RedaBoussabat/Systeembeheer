@@ -9,4 +9,5 @@
 !scripts/
 !sudoers
 !ntp.conf
+!gittestfile
 mrt/
