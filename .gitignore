@@ -10,4 +10,5 @@
 !sudoers
 !ntp.conf
 !gittestfile
+!rc.local
 mrt/
