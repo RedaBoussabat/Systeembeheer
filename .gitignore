@@ -5,6 +5,7 @@
 !ssh/
 !ssh/sshd_config
 !sshguard/
+!iptables/
 !apt/
 !scripts/
 !sudoers
