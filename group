@@ -59,3 +59,4 @@ check:x:1001:
 incron:x:117:
 LimitedAdmins:x:1002:check
 ntp:x:118:
+bind:x:119:
