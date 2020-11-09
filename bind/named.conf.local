@@ -1,13 +1,3 @@
-//
-// Do any local configuration here
-//
-
-// Consider adding the 1918 zones here, if they are not used in your
-// organization
-//include "/etc/bind/zones.rfc1918";
-
-// This file contains the local DNS server configuration and this is where you
-// declare the zones associated with this server's domain(s) 
 
 zone "reda-boussabat.sb.uclllabs.be" {
 	type master;
@@ -18,9 +8,16 @@ zone "reda-boussabat.sb.uclllabs.be" {
 		 193.191.176.254;
 		 193.191.177.4;
 		 193.191.177.133;
-		 193.191.177.37;
 		 193.191.177.254; };
- 
+ };
+
+zone "anwar-haidari.sb.uclllabs.be" {
+	type slave;
+	//file "/etc/bind/zones/db.anwar-haidari.sb.uclllabs.be";
+	masters {193.191.177.133;};
+};
+
+
  // ns1     : 193.191.176.254   
  // ns2     : 193.191.177.4
  // anwar   : 193.191.177.133
