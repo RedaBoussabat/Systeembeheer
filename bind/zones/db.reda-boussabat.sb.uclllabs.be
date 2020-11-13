@@ -19,8 +19,16 @@ reda-boussabat.sb.uclllabs.be.	IN	NS	ns2.uclllabs.be.
 ns.reda-boussabat.sb.uclllabs.be. IN	A	193.191.177.198
 @				IN	A	193.191.177.198
 ns				IN	A	193.191.177.198
+mx				IN 	A 	193.191.177.198
+
+
 www				IN	A	193.191.177.198
 www1				IN	A	193.191.177.198
 www2				IN	A	193.191.177.198
 test				IN	A	193.191.177.254
-website				IN	A	193.191.177.198	
+website				IN	A	193.191.177.198
+
+secure				IN	A	193.191.177.198
+supersecure			IN	A	193.191.177.198	
+
+@				IN	CAA	0 issue "letsencrypt.org"
