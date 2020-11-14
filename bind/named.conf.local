@@ -24,3 +24,33 @@ zone "anwar-haidari.sb.uclllabs.be" {
  // pieter  : 193.191.177.37
  // gateway : 193.191.177.254
   
+
+zone "foobar.reda-boussabat.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/foobar.reda-boussabat.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "pathtest.reda-boussabat.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/pathtest.reda-boussabat.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "subzoneui6oom.reda-boussabat.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/subzoneui6oom.reda-boussabat.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "secure.reda-boussabat.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/secure.reda-boussabat.sb.uclllabs.be";
+	notify yes;
+};
+
+zone "supersecure.reda-boussabat.sb.uclllabs.be"{
+	type master;
+	file "/etc/bind/zones/supersecure.reda-boussabat.sb.uclllabs.be";
+	notify yes;
+};
