@@ -28,4 +28,4 @@ root	ALL=(ALL:ALL) ALL
 # See sudoers(5) for more information on "#include" directives:
 
 #includedir /etc/sudoers.d
-%LimitedAdmins ALL=NOPASSWD: /usr/sbin/arp, /usr/lib/nagios/plugins/check_apt
+%LimitedAdmins ALL=NOPASSWD: /usr/sbin/arp, /usr/lib/nagios/plugins/check_apt, /etc/scripts/dns_add_zone, /etc/scripts/dns_add_record, /etc/scripts/http_add_vhost, /usr/bin/http_add_vhost, /usr/bin/dns_add_zone, /usr/bin/dns_add_record
