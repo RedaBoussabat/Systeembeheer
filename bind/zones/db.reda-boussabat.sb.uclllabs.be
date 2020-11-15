@@ -35,7 +35,8 @@ website				IN	A	193.191.177.198
 secure				IN	A	193.191.177.198
 supersecure			IN	A	193.191.177.198	
 
-@				IN	CAA	0 issue "letsencrypt.org"
+secure.reda-boussabat.sb.uclllabs.be.	IN	CAA	0 issue "letsencrypt.org"
+secure.reda-boussabat.sb.culllabs.be.	IN	CAA	0 iodef	"mailto:reda-boussabat@student.ucll.be"
 
 
 funny				IN	A	193.191.177.198
