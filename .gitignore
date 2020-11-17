@@ -20,3 +20,7 @@ mrt/
 !mysql/
 !postfix/
 !letsencrypt/
+bind/zones/subzone*
+apache2/sites-available/*subzone*
+apache2/sites-enabled/*subzone*
+bind/named.conf.mrt-zones

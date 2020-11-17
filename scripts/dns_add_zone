@@ -18,7 +18,7 @@ zone \"$1.reda-boussabat.sb.uclllabs.be\"{
 	type master;
 	file \"/etc/bind/zones/$1.reda-boussabat.sb.uclllabs.be\";
 	notify yes;
-};" >> /etc/bind/named.conf.local
+};" >> /etc/bind/named.conf.mrt-zones
 
 echo -e "$1	IN	NS	ns.reda-boussabat.sb.uclllabs.be." >> /etc/bind/zones/db.reda-boussabat.sb.uclllabs.be
 SERIAL_NUM=$(grep -Po '\d+(?=\s+; Serial)' /etc/bind/zones/db.reda-boussabat.sb.uclllabs.be) 
