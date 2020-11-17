@@ -17,7 +17,7 @@ zone "anwar-haidari.sb.uclllabs.be" {
 	masters {193.191.177.133;};
 };
 
-include "etc/bind/named.conf.mrt-zones";
+include "/etc/bind/named.conf.mrt-zones";
 
  // ns1     : 193.191.176.254   
  // ns2     : 193.191.177.4

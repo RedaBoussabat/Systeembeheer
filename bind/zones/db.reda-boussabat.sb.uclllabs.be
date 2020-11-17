@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	ns.reda-boussabat.sb.uclllabs.be. root.reda-boussabat.sb.uclllabs.be. (
-			2020110810	; Serial
+			2020110812	; Serial
 			300		; Refresh
 			300		; Retry
 			300		; Expire
