@@ -1,0 +1,30 @@
+# See /usr/share/postfix/main.cf.dist for a commented, more complete version
+
+smtpd_banner = $myhostname ESMTP $mail_name (Debian/GNU)
+biff = no
+
+# appending .domain is the MUA's job.
+append_dot_mydomain = no
+
+# Uncomment the next line to generate "delayed mail" warnings
+#delay_warning_time = 4h
+
+alias_maps = hash:/etc/aliases
+alias_database = hash:/etc/aliases
+mydestination = $myhostname, localhost.$mydomain, localhost
+relayhost = 
+mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128 193.191.177.0/24
+
+
+inet_interfaces = all
+recipient_delimiter = +
+inet_protocols = all
+
+compatibility_level = 2
+
+myorigin = reda-boussabat.sb.uclllabs.be
+mydomain = reda-boussabat.sb.uclllabs.be
+myhostname = mx.reda-boussabat.sb.uclllabs.be
+relay_domains = localhost, reda-boussabat.sb.uclllabs.be
+mailbox_size_limit = 0
+
