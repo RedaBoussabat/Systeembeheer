@@ -24,29 +24,24 @@ compatibility_level = 2
 
 
 # TLS parameters
-smtpd_tls_cert_file=/etc/letsencrypt/live/secure.reda-boussabat.sb.uclllabs.be/fullchain.pen
-smtpd_tls_key_file=/etc/letsencrypt/live/secure.reda-boussabat.sb.uclllabs.be/privket.pen
+smtpd_tls_cert_file=/etc/letsencrypt/live/secure.reda-boussabat.sb.uclllabs.be/fullchain.pem
+smtpd_tls_key_file=/etc/letsencrypt/live/secure.reda-boussabat.sb.uclllabs.be/privkey.pem
 smtpd_tls_security_level=may
 
-#smtp_tls_CApath=/etc/letsencrypt/certs
-#smtp_tls_security_level=may
-#smtp_tls_session_cache_database = btree:${data_directory}/smtp_scache
+smtp_tls_CApath=/etc/ssl/certs
+smtp_tls_security_level=may
+smtp_tls_session_cache_database = btree:${data_directory}/smtp_scache
 
 
-#smtpd_relay_restrictions = permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+smtpd_relay_restrictions = permit_mynetworks permit_sasl_authenticated defer_unauth_destination
 myhostname = mx.reda-boussabat.sb.uclllabs.be
 alias_maps = hash:/etc/aliases
 alias_database = hash:/etc/aliases
-myorigin = /etc/mailname
-mydestination = $myhostname, reda-boussabat.sb.uclllabs.be, localhost.sb.uclllabs.be, , localhost
+myorigin = reda-boussabat.sb.uclllabs.be
+mydestination = $myhostname, localhost.$mydomain, localhost
 relayhost = 
-mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128 193.191.177.0/24
 mailbox_size_limit = 0
 recipient_delimiter = +
 inet_interfaces = all
 inet_protocols = all
-
-virtual_transport= lmtp:unix:private/dovecot-lmtp
-virtual_mailbox_domains = reda-boussabat.sb.uclllabs.be
-
-
