@@ -5,7 +5,7 @@ ZONE=$(grep -Po '.{1,}(?=.reda-boussabat.sb.uclllabs.be)' <<< "$1")
 
 
 if [ -z "$ZONE" ]; then
-	printf "geene just domeinnaam eh makker"
+	printf "First make a domain then run this script using that domain"
 else
 	touch /etc/apache2/sites-available/$ZONE.conf
 	echo -e "<VirtualHost *:80>

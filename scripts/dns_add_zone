@@ -1,6 +1,6 @@
 #! /bin/bash
 if [ -z "$1" ]; then
-printf "Geef be string mee eh vriendmakker!"
+printf "Add a string after the command"
 else
 echo "\$TTL	300
 @	IN	SOA	ns.reda-boussabat.sb.uclllabs.be $1.reda-boussabat.sb.uclllabs.be.(
