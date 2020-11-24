@@ -59,7 +59,7 @@ LimitedAdmins:x:1002:check
 ntp:x:118:
 bind:x:119:
 mysql:x:120:
-vmail:x:5000:
+vmail:x:5000:check,root
 rtkit:x:123:
 bluetooth:x:124:
 lpadmin:x:125:
@@ -74,3 +74,5 @@ colord:x:133:
 gdm:x:134:
 postfix:x:108:
 postdrop:x:109:
+dovecot:x:121:
+dovenull:x:122:
