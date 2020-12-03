@@ -26,3 +26,4 @@ apache2/sites-enabled/*subzone*
 bind/named.conf.mrt-zones
 !dovecot/
 !netplan/
+!ntopng/
