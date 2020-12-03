@@ -1,0 +1,499 @@
+; File written on Wed Dec  2 14:21:03 2020
+; dnssec_signzone version 9.16.1-Ubuntu
+reda-boussabat.sb.uclllabs.be. 604800 IN SOA ns.reda-boussabat.sb.uclllabs.be. root.reda-boussabat.sb.uclllabs.be. (
+					2020110816 ; serial
+					300        ; refresh (5 minutes)
+					300        ; retry (5 minutes)
+					300        ; expire (5 minutes)
+					300        ; minimum (5 minutes)
+					)
+			604800	RRSIG	SOA 7 4 604800 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					NnVNJRyFIjbuGv+30FxAw/hW2RxI0ZXMq8DQ
+					o3HWyDVXUQfio+6rh+teMyhq20kyFyT9D1MB
+					F4TWgAnO65f8VsYjVBdesV6G0Qnk+DQMMWRZ
+					voYRKB5fRONUmYSCfyYnASziEAXkDvvNH20V
+					EF4nXSCMKhXNIPIXitolGxAL8Ixg+vGE7k/V
+					eRDIZnsvWTo/DazwqbcnfL1dUHWCsj6TxgSV
+					jkWqdkZ6FIDp0hQ57zoQEQEBWHgs6oAL1EK+
+					18b3yUoy0r6lx6pJ1Xz9n1J20mYu9uWsYfMP
+					6Uvrt+UlYtHoUAZuGNY9/YIKxQlyaXFKTWG5
+					nC5y0mMuQ1oJff2l1Q== )
+			604800	NS	ns.reda-boussabat.sb.uclllabs.be.
+			604800	NS	ns1.uclllabs.be.
+			604800	NS	ns2.uclllabs.be.
+			604800	RRSIG	NS 7 4 604800 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					K2RMpxP9BR2F4bNJI9tBNT818Y7gRoLssRqQ
+					v0addc0Y866fX6RXlhPIiuTEt73J+2wMq7Be
+					hsBNHc6K8fPFWhp88cbgyYh+iqP8san10yLT
+					6J68F5PXQbCC1QbnJd+dG0K4tdb2SMfhZtN+
+					cxrGxj9vCATTN68fqT2SgeZwfvNatuFODs0t
+					xHfT1WYyJPoMJ6vTUesBbLlYf9Nfy97OjZHz
+					F3J1WCdE0wN71iTTo0YQsaUeAGyibjCFQTGu
+					eCuozgJN/ZZ4B436mwTr96QhXr/xARfUw0Vz
+					JgzqrhlDyr1Z7e2jy5CYj+hYIzmxq+kBNkB5
+					HSPp4Rd4kRKyayMUIA== )
+			604800	A	193.191.177.198
+			604800	RRSIG	A 7 4 604800 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					ZN00ZL052lkpGVQLTGHSiZPcHTkPglf2CwCL
+					Y/G1UBP51GesE21EDEcemn6SYOxX0IKWmU+N
+					0nsQ1kjjJTyTBzN5BvQX2wXyfS0f1VKnyGT5
+					TA5b5j0ndktKHyX7/DCHi3V0o/fl2QYTtHSz
+					z6Cx5mJWaOArb/1qyct8PiaBwRgBOLSv6rxx
+					u6KkP3WFUkNQCB/WX/VtR4H749OaYlCcGank
+					BxhtlB72J8iCM33ZfXqajy2nCIvrA/6bBRd1
+					/qNJqgjx15J7dEfPWk+tFaC/BTiQ19ZXn/lN
+					/0jVnIKILc7kc0C2VW4Ia0CsLaaTeT4EkA5k
+					vIJa3sRanOMsO3S5Lw== )
+			604800	MX	10 mx.reda-boussabat.sb.uclllabs.be.
+			604800	RRSIG	MX 7 4 604800 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					XO9tzAawUZbMIau/JnwxapWnkTjq81N0Uv3d
+					+hTOw1Abrt7kzLD0TlmVuHYsMwQp49eodocV
+					vSwFkMwPs+7Nkb/mJDWYTJT/ZLW2WALMrugK
+					rUQpVm3pd7/UB18oA9tVo9Buqf7hvJ7K32o6
+					i3cQv0AkPpEbHzW15RVRWTTwgiyeLbfk3tzo
+					znVxQvBfYis0/1liuxnMyVwyzRyLZKcrq+Wf
+					0lSDCwWzJcGpBbfmwoWrRUpnCBWshVHEwa+2
+					xPMGSdpi4+PqfvV/dZ7z4EH2OKR4ecJqRaEf
+					P26z39/YpKMTmPP2sN+kKNg2uRkbwbHueA+5
+					yaX89C/eZQj8Z3Rc/w== )
+			604800	AAAA	2001:6a8:2880:a077::c6
+			604800	RRSIG	AAAA 7 4 604800 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					eqBL9V4M+oqDOsnjCFbkuk1SXpunKhAcO2D1
+					BOJCWklNbzVVkwXy3BvN2fr5oYOEiWvWpVqZ
+					pypAdTptSE1uCUOtJ5tYHZf/kFZL5kYXzmVA
+					krlrlXr9wx83Y3TlINCx1Aiu78rNpW/kZRDz
+					E9xdOZ7H9i9QU2sT+e2MnQ/1IiIbhLMfDsZ7
+					4qM5gbKeYDZazNUmodspgJLVdkzbxdOh8W3u
+					c5gRpEZkYlLjwRWf29thJjsVEk6T67J/o3Mq
+					PPUA635EABdy4REXRYjMVOpc+rbgRSiNwyKb
+					1EM/jcUKZkAq8OWbhi/TW2tH5FdtjDvdlYQi
+					v6FchDSKXCv/BGSJsw== )
+			604800	DNSKEY	256 3 7 (
+					AwEAAalACBphh9FeiC0on/1YWr4EOaa0t9u5
+					c5XegU3Pj1oRh+AQOhjV2SX3QKrgaWdADXAl
+					c/MPt50Bj/c1lIiPXAVTWLpr2mDufBwPsY2D
+					K5j91Aycm7A4Udid+F/EyqJywmN2u5N2IVen
+					Ow3M4fdEdSreERNHPrKpt/M1br9508NRFTc1
+					bMkofzBk9mOcvuzZhU+5g/oloZ255/btyIl1
+					Ebne25hpm+N1++4LtiiIF83hZeZMpeQ26mWa
+					9jVWa38yRlFbHRiI8HKVtfpSZ2SVLf5Dp4u4
+					HpyabmPKjokof1wHLtl3PWotXGMvq8W8kRXd
+					KxPYWzRxDK0a4S8MCmJVT7k=
+					) ; ZSK; alg = NSEC3RSASHA1 ; key id = 6582
+			604800	DNSKEY	257 3 7 (
+					AwEAAdV+YieUGg3NUJd8yVevLMnZyXtldJsl
+					QP7FKuX1hyiqaDFJ3XxrNsAO2xIW/RQZjG6g
+					ONG5NPjyd7G6v2Ni+iWf43x40x/xtceD9OzO
+					KVSdutwek3I/x4yEK5gVxx6nv9KSOT3Menr/
+					8RsYLvZbaYZlKVv1oBYsIjcmHHaUYmX88hzm
+					n5bYtuBRfMQnAQfDiItyOv2/5kMJe+IRK4Ro
+					uLQGawIVBlLZIQ6A7PtXX9sUYIkgqTSLWa02
+					cO83lJ16YxS9m8nnw6rxpEjjiaEdBps/N9kd
+					MeAS5WlbJF1Pjq0fqQ/jZ+6LRAnmtdKl0Vyt
+					s41GCYEyPfGHFat+bwtjPL2v+m/FSfkuUKl2
+					+hCQoTcMaJPXGVMy0ohz9fcoQZeB9WmJ+Vrf
+					jqTbvpR1IORQtZ9QdOqBNaOGG8EyjrwzXhnF
+					cDO9Uqm/FYKEqlLOG0HrjB4+Ub5bsc26/MWb
+					gVTysCWjz/cTp2HnmFvZ/9UzKH1n9T2ZuAZb
+					UKmFXpE0yLH/kGAENhvXUtv/oYo29Tjbgtft
+					6VuEODDHFmqYG7NaDO2H0Uhg0TQMVY9aXSd2
+					AwI0Xx1MXeDArFkLGRXhCsJ41kRYLJXHZ4xA
+					FeUxgDkhZiKOy20+VVsetqJPEy7dv+xVk1WV
+					HcWO672iuAxyXszwFavnHXvI6CeLqWweLXrM
+					kAst
+					) ; KSK; alg = NSEC3RSASHA1 ; key id = 11680
+			604800	RRSIG	DNSKEY 7 4 604800 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					c/aMzE7Ih1t6k24BisQtbSkeVYcEP9F9OVbI
+					+KzPEk3QKM+fkhKKJ+PRGTK7RtZpkMEZaMoW
+					mk30NFR5WNhiAjrm8x3LNTR+eRqVx71tzkvd
+					fdZUZKDb4il4XQdWewOxANjAiN/xkgZMif2O
+					lzjIzfcQMfUHtJh3O7laKRQD/K9NLnqqtqj+
+					lrIpOvU06FMKKtjHLYgeccNvF7GZvcGLEY83
+					6Vd0ZNugvyoBrd3O/v+qMH6mzPuMi14n3RvU
+					bY/Zu6A7fU+/hkFCZoNk+yI+FH6Qtx0u5+kb
+					Ilk8cijIeCYCwdWD9wiNtet5A1d7VvA/0L8B
+					3NKvUzb6u2+cv15DAQ== )
+			604800	RRSIG	DNSKEY 7 4 604800 (
+					20210101122103 20201202122103 11680 reda-boussabat.sb.uclllabs.be.
+					AsOZd53la6jr3siav4CEReCFbxxSomnKY7RP
+					BS8oNAioW4cNwg25+e2NDidaBk7Atibt4Zsw
+					alHbdiIthYvLpYKIEB/HQhQeJ61bVjuQND1n
+					aNj3cBWGazNu7Ci5HIE+p33NcvzT641Zk2RK
+					u4LkorsjmndTSPFPnRVsOA7pKZT9ltzI+snw
+					P07FM+jeqDgPfv2hpn8ui1J8FZtra7P2zzHA
+					E9J6caKXI7oYbLqwQSv55A9j4K64f1s+UBQA
+					Ci8Opocli7O8Wu4h7anITHCEP9eLw4QXxGr3
+					i5ijlcFYseCSt0PC1g7QTBNXHkbay+9wnnqu
+					qJt+Q4YRMkXon/MXq488EOoAhUtKhRVvkDY9
+					81IiNLjwYQw5KecVjKeK0bP2pnwJEF6hpQ9T
+					LrAB7/aDInrlUFBKhETMMmc62v0GV6ifA6eI
+					Q2HOot5tB0Qczvx1W1JXn6N0JZfyo4h9bSMI
+					0/Dx/XgFLSzIqKS0zJinSDnZXl0DBxgG8wT9
+					KlO9mp4RLJ/rUUN/CS9bwtpDtuDpCq4BQIIb
+					epEI6b/z6bUHa+Y7RHccqHNzcfpDMcdsB4fv
+					r3Zf6q//BFpexKfN8kZu3a/8QAXgCvnhBQoV
+					JSov97JJXo1TQZGEDTQ1+1rBQIoGpVBhwgvL
+					T5mncdHrEYBJoKIAdrpHCCX26xSdNWKCNJ0= )
+			0	NSEC3PARAM 1 0 10 DA39A3EE5E6B4B0D
+			0	RRSIG	NSEC3PARAM 7 4 0 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					P/goUyzrdxNGMXPSfzu20Pwr99tD10lvDQlc
+					M5dpun+o92zPltHQXGtLXTRmW+iq70LdHdmK
+					P82iCqrIgK+Pb3XspOKczfNoQvupoUQQISZG
+					NP2P3CA8k6dRAwEmtYVrpI7ZjjVSx8Pmy+Pd
+					UlgAkteYvAFbOrmdpiXqT4cbqoBSEPsJbrhr
+					to1bp5DEr9lFUdXbXiBqhgr+oZ6XhlAJlsGP
+					0PwJPaMAyv0ln5hfwl7MVaDCAxLizHCE1EYf
+					PMxKveba21Vf/om03Xq4MCaR9vNxZp8JHhAJ
+					Tg1i3BBo/ZZYA6TdG/1xz57193GzX3og3xJR
+					uGChD4xdjq6EnAtAoA== )
+secure.reda-boussabat.sb.culllabs.be. 604800 IN	CAA 0 iodef "mailto:reda-boussabat@student.ucll.be"
+foobar.reda-boussabat.sb.uclllabs.be. 604800 IN	NS ns.reda-boussabat.sb.uclllabs.be.
+funny.reda-boussabat.sb.uclllabs.be. 604800 IN A 193.191.177.198
+			604800	RRSIG	A 7 5 604800 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					FEmOWdD6+GsHIpbB7OrtTDTSL4linVJm4cJ+
+					/i2/rRWG4iFghVR0w1FkGPYahQnnDiBO5otM
+					BljNlj8h2gCgIljxPRzzaPCwAxabLJ+a1mH+
+					/OJMqgo1RoFtlM8SnnTX4Wc/xA97JmreSGRE
+					uqvWsEX7xC9jw5EM8gI31QIwF2cBc5cYixWl
+					E5uz7Qr2eINe9Sr4yXfs9+819/F7SccQNIHn
+					k8sQTv88P6q3yahhR7H4TuJv08Xk0b1gO/pf
+					K/uwm60FhxPO46FH2jKXhBuBEwcnaXEBN/+R
+					GSvWrTKEkA0+rzf11NRRPwT229c7J6moKiEU
+					rwOCRdyc3Oz3GMtGBg== )
+mail.reda-boussabat.sb.uclllabs.be. 604800 IN A	193.191.177.198
+			604800	RRSIG	A 7 5 604800 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					XCMEu9PJrx6GkgwbWfq3HFeXg1qkUNnrMIyc
+					VbTrnFTh8zLtZsKv4KPApIonCHQUAFbUlyGF
+					9LQgpOtpiYiaeDqvMpfHKhkPwFBy/QMWgLTc
+					E5vQP35WA/ZPRmn7eHImyPjk8/IvnJo9dju2
+					vlLfB77X86eQCDyk0h2E4MXDafugl0SNR/B5
+					t7r3/bEYH12gatVeZjHO9nB31vLGIaVeZ6xJ
+					rX3/lL/+VLdnyoyjWq1g2f4cquA9/Ay93RcF
+					77waPHeDIeWr69ah+i2gOOiunveI+WWJbN46
+					jMzLuYmgiq+aG6G+3JTWcjLz7A4xL9gEW/aK
+					3tTO1659Cg9KP4Sh5A== )
+mx.reda-boussabat.sb.uclllabs.be. 604800 IN A 193.191.177.198
+			604800	RRSIG	A 7 5 604800 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					Xnzp1Fz4iP2LPbN9BYsnepjYjyb4kuI51hcb
+					bDOq+Eb5W5DnrY6txUnzDwcXS/u7LzNe/QQO
+					mYchZLAMhZ6jTGQ7wRw7ZMFKfC1x/nobE05L
+					EhKesdPpIA1Vn6kaXfqc5IY++MyuNRFj/iu/
+					EqJy1aFTGUss90nx83Uo2PNqCxGB1vteF4jD
+					rKtSEP0tzGIo8fXXWyjMl4vSi9yEaZS+E3U0
+					1ffdtHFY4Vy6PYP+IiiOzJZMd3ciB4hjvPC9
+					Ro1ZqRFM0ExuDaO4zy75l+ZEylqhXwvyosx6
+					eXNBcRaA3kJ1zaItogUyiugBIw9UEwn7XKPM
+					mwM5hB/Y+AXI/qZL8Q== )
+			604800	AAAA	2001:6a8:2880:a077::c6
+			604800	RRSIG	AAAA 7 5 604800 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					buM+4Cuv8bYf3DrJyAUl+rOtpYUASOjJG7rf
+					kj1jlpSe4AtB7pzFbp0sFoBKpbgqOvURQBtm
+					I1+J8+THX6P+jzeYN8vBDiMo4ighGd3PurEE
+					P9SNMrLxEfeNoB1eR3L3lVTk7YFT/rVhCRIY
+					rtmQmruWE/QCoZ9gx4I1II7MYhhZkzuoDqG9
+					cT/MErBtKj4PgMpB2JS1/VburxwD0EbzIe3p
+					qdBf5emw9MVugN6gpri4ev1UvbbcmqmFfuS3
+					vpGxRl7R1XZrrHT4x2DY7eAzmUCz/wdifz5w
+					Jmyu8Cfv/t6kt3VT8oEmb+sTvfM9jUOvS26w
+					DKTZMaX+Fzw8b/k1pQ== )
+ns.reda-boussabat.sb.uclllabs.be. 604800 IN A 193.191.177.198
+			604800	RRSIG	A 7 5 604800 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					qFp52FpyKsWzJlMyoy+DfwZyE+t9SsDGkCi0
+					GmHowISs3RNrLDL/7bNGx8+vWVNpH4TB7HBz
+					I4r0GOtcGgHev4Gi8Qeb0if7LHi5I9OtuleX
+					Cu6v0T7MbtaxTqvvOXAoD7ZqcTY4QG+ER7T6
+					oVqLDqIATOYnkJ8MtA6/p2jhZTyr9LfKeAUE
+					1atEsTtcGs4GlfjcqoZUF46bY+PqC7ycSqfQ
+					//6UgrSRLcoChwoXWhutIo3S7qGSyAfg4eqN
+					FbtZyOE/ikTeJLMTkaTD80q1UJBHgjAz4mss
+					noR9QHKek7oTpYsr1tM4ma6eKoajVYIOPjD9
+					5LR/RUWSlB6tLEJFNg== )
+			604800	AAAA	2001:6a8:2880:a077::c6
+			604800	RRSIG	AAAA 7 5 604800 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					lHrUO76JXCdMcqIDsn70sfi8k5XtldKs8rLF
+					xzuyK0IliaRGtHARRRjN2kKbj4PHWzaDvrNZ
+					bUclJdtvpvNMz4XdLbVAE1TvrdeWXZPiWvXW
+					xP3NRT3Unv+cwSaq9ZknHo+Fyi3AM4t3Kqv3
+					hVrtIiphsn00llvO7Uo6UDMKtzi0OI8789nO
+					fcw5eogEyYqHJIxMabBc42ssI5TjxdndGNXx
+					eJxRQqiUt5mZXK1fGPPnVN5XPHRg0WcDZR1W
+					P+uhiRn9lYMIgxJs/ZgOYEatboVXIPdXEZPz
+					VNt90UpF4dQHFRKYpzSgwR1mZ6yuwAD5YX3T
+					N1/K1CXjoEVQE+sp1w== )
+pathtest.reda-boussabat.sb.uclllabs.be.	604800 IN NS ns.reda-boussabat.sb.uclllabs.be.
+secure.reda-boussabat.sb.uclllabs.be. 604800 IN	NS ns.reda-boussabat.sb.uclllabs.be.
+			604800	A	193.191.177.198
+			604800	CAA	0 issue "letsencrypt.org"
+subdomainpathtest.reda-boussabat.sb.uclllabs.be. 604800	IN A 193.191.177.198
+			604800	RRSIG	A 7 5 604800 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					miXWTShvUsvqAlkUAjS03RoP9/gTOPos4nap
+					PGvrnGoD9GluvmKP5eKzNAFAKkU2Lag74/Wt
+					+IZKtdNUVG8Xk26BjO/S/303WSOiwxkh++iR
+					mH1siguu40Ur3mTMFpJ5xIa1Da9kc/TiSmOP
+					UyXc0LZ8xPmA/SDKFq8W/a5h8SEJV7jDd1ba
+					yiQhyqZLiVRGOb8A8Gte8C3wt54C/1ENAj21
+					5cJNTdkPjxEJ3WIdAFlDZaAcZw5AsfB2hOT+
+					HksWs/pwvN4fNaP+dVDeppWjLZg9sa1K5q5f
+					b9B7GdhJgoeBuhxSrVRBGK/ST/r6Vzdxm3kP
+					Ra7bv9qe7D1nuY2T6A== )
+subzoneui6oom.reda-boussabat.sb.uclllabs.be. 604800 IN NS ns.reda-boussabat.sb.uclllabs.be.
+oox6fa.subzoneui6oom.reda-boussabat.sb.uclllabs.be. 604800 IN A	193.191.177.198
+supersecure.reda-boussabat.sb.uclllabs.be. 604800 IN NS	ns.reda-boussabat.sb.uclllabs.be.
+			604800	A	193.191.177.198
+test.reda-boussabat.sb.uclllabs.be. 604800 IN A	193.191.177.254
+			604800	RRSIG	A 7 5 604800 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					XVV3G0u4RCv2pKjwcSR9Y/7Ch9dM+ZiNNEjK
+					xPeVsRPoXYev7YottSvqKCuJllIsz/aG9unL
+					o2VKq3yqemgeUDi6RsWGQVlLeeFBoG6YoJBq
+					V8B/e8Nit0xMQGf0PovVPG45rfGWfhxc5RkB
+					ZnbCVIoCZ5soXy1IKmBTT/Ql5xJ0oVZ5516V
+					s0YKULGebSK7uV9Y0+L4OcbeaSOaoo0sD+g7
+					x0F1YgoKUpEmZp3AW+jWc39vgcRm2G36w3Zs
+					Sd5bBRA9CTZ9sgZ7X1zXAlntNlbKmpVXUjR5
+					eLa67yP80kvzMNonfPX+CUIoRc1+j4FOykiw
+					lHNoTpLrFhG618Ut5Q== )
+website.reda-boussabat.sb.uclllabs.be. 604800 IN A 193.191.177.198
+			604800	RRSIG	A 7 5 604800 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					lmmEfniOFTAhGju7LLpNzteRe7aBMyMj3fkd
+					4edMEttbetlAQxLDgjNTs3+m0KoUgeEAxZ5s
+					+K9lsWnsJstEtyIrILfzNB+koNVqmjf6QcSX
+					fCRI+3x2pjlLZrKzpLfohxs3EWkJy8lGKdgm
+					TcALl/fuCkd9kcm5uyJp1QtleUuxfsko9sMn
+					UyzB/T4+vQwdw1BqGXWe3zCI0FFLgViPttz+
+					U+7tgFfZQ+IQosm/YVUKpgafnxm0ZmGXIL7e
+					/mU+vqbkSWUg40oKw1Fkrk58uO18PjkSZJD5
+					Gpim3ECqyUPqllAJVqXOol8A6B6VqM8XI6B+
+					znLOpbfSz5E2r3ZDzA== )
+www.reda-boussabat.sb.uclllabs.be. 604800 IN A 193.191.177.198
+			604800	RRSIG	A 7 5 604800 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					EXtAD/T9R4yvFOgX16yb8KgqtaT1Y5xohTSg
+					uZdtY4afUjh8NWsRmCuJDiqY5RURAqDRzl5C
+					PfwNikAjf8AJ3A5kuKy/bAnhT2yZ4+MMLApD
+					n9ccNbpzlPKlVzEWhqK0E0PRpogL2cG++vvM
+					c/MkeBmd23Oa5AC9yxXTrB6A1MGKpn+y3HBL
+					t8cfUbMU092SH3Tr8jMurszoKVDoG6YZUauu
+					PGjjWbE0pIUT6rrdFZzcjOLpjOT+QvyRB8bB
+					B8hY5NpLdu7bKthcE1aEULlrihqT6fRhI2Cr
+					KicqePqDW4RsbRLiJQoFCJNwIrKMYGgCakDN
+					ndcUv6UTVAQoNqTinw== )
+			604800	AAAA	2001:6a8:2880:a077::c6
+			604800	RRSIG	AAAA 7 5 604800 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					qOEmDxZwnuC920mmnNzQ5+dPDmkoXaxb2RPw
+					U5yFqEFo6i6kRdoLffrJPx/S8PebMHckTqpx
+					+67oIHKp+0b1b+Qc40XmIssfCAKK+vNvwUnt
+					TuWadUltc/fIohEf6s6lKYrumHkwa3p3xTaG
+					3eKl6seGerbRiDjb9tfQydNZbh/9o7HQYRNc
+					GrNILYn470vzLwRZklgUTxmr/9hCFMYMW8p+
+					Vj8rcM4UgClBSC5Xn65ZvY93IjfTD/soz6Um
+					YMLvsvgv8LhfdKLM9lETRNjikuYZzT34qfW3
+					XisxbwrfftWkakpLIQP2GIplLoPtqWdChWrK
+					X5b2GO2YY424p/zjiA== )
+www1.reda-boussabat.sb.uclllabs.be. 604800 IN A	193.191.177.198
+			604800	RRSIG	A 7 5 604800 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					l7wpbwA4pTIpsi+srpupLFO8HUQYgGj+wSEr
+					RaYiDs5joSeSuyGRbrh/zwwdPU//FCWZ5eoI
+					Rars5rrG0MrAKTy+txBiDuQLGv63qcYRgnMB
+					IoCXXI9ukahCm2l+EVPAMSqZ7CDlA2j0qwvK
+					0e6Vi1jag33lVtzJUnKYVrP+kUOsceDz0Ly2
+					a9jwkmScWJ7jGBZXCa6HlIu5YV5nttdEoehX
+					tUM5o1bKbU3GZfGVtNTi3s7HN/YjC1QxCp4j
+					gSUSk6W6KzosFhtLWZYocSLMlqWS9RsBspJf
+					eBppHxSYgJ4wGiBmwKSLaAgj2twkDt/g9aA3
+					RmVS3WoUcAKnQv5PwQ== )
+www2.reda-boussabat.sb.uclllabs.be. 604800 IN A	193.191.177.198
+			604800	RRSIG	A 7 5 604800 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					dN7eRrJbhspAvKZA6b2IfoP2c3kU/vaM2JML
+					CSn8CJDZxKYtQ502u0XecI2EEjv3xFV6xnhS
+					RyFzVEnjiKVliOpaOd59bCnFpwnS6YvXI7Cv
+					kohB2fwfvH8cF13APY0wPD5YtNAmD1vV1BEW
+					cTKPgrQQuKRSRQadjdfDd+m77wQivkuHKIxm
+					lGtBPgNFQI1Ic+qfWgcSx8XLT6sXBtmhqumL
+					ETsmy4j61F6IOyDF2S5+FI6nbI2VM92bCswH
+					UpTeGMBpvDBtGW6bDRGgFYts67u+/J5QnmMe
+					ojC1QPd55KJV/8VurMf3jUSXZVr5gj41dRqB
+					dfT2xeko9fVhacTQSQ== )
+0OOT1PPP3AL61QU8T88JNIEKGV59O6FG.reda-boussabat.sb.uclllabs.be.	300 IN NSEC3 1 1 10 DA39A3EE5E6B4B0D (
+					A6TKDEP111VN7FQLGIQ3QVOUA4IV9PM6
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					KnnmSfJYDfhD7SrPs8qL7bJ/6WmhVSXX6sr9
+					Da6Dflzmi2DnmT49Fs+uPCnAm3f5aukTSDeI
+					nFgKamDU3Bl8IMzF7NcEGTKtGnpLtK41DfBh
+					o1/hO8OwYJt+h3lOlQESJ0WHiu2Q/qCMJqTo
+					fOQSqK6PxyFXQf1oxJwY+Bq46bZof44vaf1w
+					afH3bvod3t4N6PI1ILZCBna/bruEGNXSDoAE
+					yYWYkbsFj/iymEMnkzdhnrakCtxVymNBcrZ/
+					9bZI0DbMjctGs9qsgvcghZoOKsDAn/8M3WJT
+					+fsTJRe2ydURscu6QFSNlIlAjk0sGeTETEpe
+					YNlQQxvubcURBTbACA== )
+AHCU28P8BV0DHCBR5VH1S39870NIKANV.reda-boussabat.sb.uclllabs.be.	300 IN NSEC3 1 1 10 DA39A3EE5E6B4B0D (
+					D1HPKRLO6A765OHJEGH1L8O8D4NU7JRD
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					FUGDkQ00wtR12/MlEbbXFuwDASOpx3qX22DG
+					wty5NfyrWpGvIxGbTtGQN/nBUctIMDqiAoD8
+					W9gwp/UpKvnCreKuCz+4YSaXUllI7jRhrWJ1
+					+6iclgnCL/B8ZWXlt+srZjQzHjDmpAky7AHG
+					ujv57F4hsedJH7fr7SvcgAAdpTknblXOl1u1
+					yzEuidgxIIN8xdcpt5wOONL0HMPi3o2yuO0+
+					mfp9NS1NpVE8yEKxgm+gjmveu/ncA8IdGpmb
+					Blw15ws2PXTQK3H1KpkJzRGTvI1OZaohnoeZ
+					/5qhOzdLbj1VxJg4wJOws85JUFhENhKNjZGV
+					MUQ/RFo3TuWJVE/Ggg== )
+D1HPKRLO6A765OHJEGH1L8O8D4NU7JRD.reda-boussabat.sb.uclllabs.be.	300 IN NSEC3 1 1 10 DA39A3EE5E6B4B0D (
+					EVITI2VO6RAUGC3L9SHO2UKCCI1TT6UC
+					A AAAA RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					KV01fYmGN7cOg+0Tvz7NfOcKuN15ChkZDfVF
+					tG37WV/2a1DEhKU4WLltvUBEv8Zo95Yiw+7e
+					Vmci+hKjRzjReuwp7DE1A/o8N4a5MCXNiFWf
+					4tEHqcy5hTzUGswmf8GuHmJHH7udKnFoen++
+					SR9P+AKQXdVv5qYLQ3qtQqiK2bQVGelVjpd1
+					ATf6KzPBeJS1cWWElFWdT0M94S8wtgRkHFGU
+					HGsaDUszCB3izIdjAO1103Lw0lnDoWZ14u8/
+					XTK2NAFrpnJth+rKH/iiyBrQAMMBE5PafOny
+					m5qRsgnKGaL11HmGsVhtyOZosYlhpGYREM+O
+					9YcWbrVrxSMgPVk/2Q== )
+EVITI2VO6RAUGC3L9SHO2UKCCI1TT6UC.reda-boussabat.sb.uclllabs.be.	300 IN NSEC3 1 1 10 DA39A3EE5E6B4B0D (
+					GSDNF5R2M7J0R6LHRDLAUGN35U0KLDIT
+					A AAAA RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					ZgiFXsIyrI+/r2o/nRQx+jnxMNmKdHqtpUvX
+					JJz1zyxRSWpmTIMfAm9+RPLxYJQYmnTt3AT2
+					6jtIA4p208moLdJgXPLf/6zFoIeHBnooTSi8
+					9RdqFAJHKNuK1ltrNy90USs8adEUdkS8x20m
+					cMNQCGetNAKqnFVk16BkvJxr7DM1d+EALhpU
+					hx1as2B2OKLWOVRBO9Nj0hELp55xTgMIGBkP
+					owKqJicSGh2il3bIwcJoe6/t8AIV4cUU7cEL
+					aFNiptwyqlvlbQc3ppryIJckjNW7dZ/XIBIG
+					jizKIaX9VwF6tX/CAhGOcs1nUQ/3q5ggzZVx
+					ZTK808kEi2PnwAdBig== )
+GSDNF5R2M7J0R6LHRDLAUGN35U0KLDIT.reda-boussabat.sb.uclllabs.be.	300 IN NSEC3 1 1 10 DA39A3EE5E6B4B0D (
+					KR87JTJ7DR0309O7KEJETENCIGSNOGUP
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					X0kkuE1HsKKMnF9ZBQUZNOVP0ooi6uLzaLNs
+					V8l9evgpoRD+HwEeoCS+bCNJ+90LLM1761Uc
+					fB0TB8eVDHSynLUyx+JTaQaw2OLQD5A1/giX
+					LZYwJ2ZJsJsYIu+aPanhiyXEKx1rdQ6Fb599
+					2+aklURnfXO4YrK1bfphgB0PMnMTvjHh59gN
+					G7BouO3ycmblTpw/IveELq4F0vkTyDDKpnfQ
+					OEDH6rlkiCFi3Y6RtjZSC6LfDB7Gcc+Z8oTQ
+					ckPAKfcGg3uk77qT3Dx8z62W4sqh5GNLTB+n
+					IcsQnDvw391KshipLDlK0qUDIaRdLYhAi2q4
+					E0S3H7x2m3frp7Fw9A== )
+KR87JTJ7DR0309O7KEJETENCIGSNOGUP.reda-boussabat.sb.uclllabs.be.	300 IN NSEC3 1 1 10 DA39A3EE5E6B4B0D (
+					OQ15BU5JM5J7ET7EPLQQ1V6SI6UKRDG6
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					W70nfJ4ILUrAATgmLPnhXF4vjiG8lUBJWlIA
+					T9XKS1AMEBaLOY9pEE5DDAWFllZh9xXAEYWA
+					v/Om+maTuR8T+0rT6vzpub5MEOQzS4GoKOKQ
+					Mm5VQyCLdC+H5GdxhJwx9ZTmOXPK//K39XKr
+					l80mSYDxph/eB0R71gi1YCYyEasu4knzCZVS
+					glzyLeLnvSY5rzZq04vmz24/1MVTWl+Kozim
+					5wFoxaIAaBeAfnta04u/1iJsXcKmrurwwk4N
+					QJJivuXp5FOphTqOW9qDa6TC9OJj3ksk0PlC
+					I37TT3vzC4i8Dh6yFZWw+KWUsNkC8YOxNXu4
+					I2Lj8CHzb0+aRzWzGw== )
+OQ15BU5JM5J7ET7EPLQQ1V6SI6UKRDG6.reda-boussabat.sb.uclllabs.be.	300 IN NSEC3 1 1 10 DA39A3EE5E6B4B0D (
+					SOG9JOK09J3IOQ43TN329TVGVFNT4A8U
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					aJmxc2Z69M/N3oO+HQtN60YVJ6bRMmTVO4xV
+					1kft4JyC5UMTAXMTgRxJx7cfvItwO65dom2x
+					bc1e+19emiz+iR417E3R0tc11oj0dKjMI48V
+					lAdqcRawP0z4CaVZDv4N6iPe4hlPM1XRn1Vi
+					Ce47UVx0+/KaOZutlCaMUC5u8Wfj9+smJYPq
+					LJUlse7dKsXtnskZ/RTgkDn4N2SCJ5x5Pwkx
+					fBj7HkS+G+zoSFEEHOCX2i0ezvH+WOFh29IT
+					tnq2QXIU+SUu4t2DktHvqIqQkRFHPBnyY7uO
+					IucB4B0YYyMj7Cr+3DMFU1TxvafoictLnrRb
+					SeaJnXf9DCyI2VfmjA== )
+SOG9JOK09J3IOQ43TN329TVGVFNT4A8U.reda-boussabat.sb.uclllabs.be.	300 IN NSEC3 1 1 10 DA39A3EE5E6B4B0D (
+					TGPI2QDGIST4GVLQL8QTVE2VF3PN4CH8
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					IGs1YN1oQhLd/q9eG+cdviNDi1yUhkQPzCFU
+					otzYVa83+OZvaeoENnLsMTAbR733SITKR/Ou
+					LER5r3HCvI+AYLrIS8lKscWFH+RkldruCbYh
+					YuefVkKDeWQd+omMKV8MYdp55p4u2nHgONF6
+					wyqLU69+tcgYqt9EHd9j4FaJ+BDkPhoAkxvM
+					+NEjDx4smGLDJ9f4KGGLUwQGCFmIaZO5I5YU
+					YaYA5z5UCOsuIU4GXHp9I/Y0U6njk1B3pYYC
+					V4BsBU3I7rfE7ddFJWUJXsNnLAj+XrVlztIl
+					Ok8wIzQqDzIJWw+PSY8tTgWrqiG1N8+EFF++
+					8eOjGeKdfd83BaR2Bg== )
+TGPI2QDGIST4GVLQL8QTVE2VF3PN4CH8.reda-boussabat.sb.uclllabs.be.	300 IN NSEC3 1 1 10 DA39A3EE5E6B4B0D (
+					TI8LK825HM8UNB6VS9VCIN67BRQ7Q7OP
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					OyVFxft8DdccciYaLjCc3cRaDpyeEmfEjfNo
+					5UcWZUn3K30BpwZtOnbwmnxVG6qGe2CBCnSa
+					jtHPJvxZOY3tRdvOAgpLnqDjY/bMlXKPVFbc
+					za9mRuD4mKFqgbH38Y/F9rBUUSbYnc6duJ8S
+					DdtQgarOikDD9LF1BYKXuOCHOAi5pNknFbR5
+					LMNzL+Cm55hs65G/5kP2Zig6+KEdbK7N7pBs
+					XLb3aBPjL6JaUGY0UtMNwGb4GqrLqv5cCwOT
+					tsaYBGMXkBKJAxM+KNhyvdJaZp3s80swB4hv
+					Q92/786r3e3PBvD3pOGYu2FXty1rvUeQmfBo
+					oZRIMsXrICV2SbB9bw== )
+TI8LK825HM8UNB6VS9VCIN67BRQ7Q7OP.reda-boussabat.sb.uclllabs.be.	300 IN NSEC3 1 1 10 DA39A3EE5E6B4B0D (
+					0OOT1PPP3AL61QU8T88JNIEKGV59O6FG
+					A AAAA RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					Q2egOCDMpgX21EN02CVRxU0EOKJlNDHnjP8X
+					BsV/P+DeejIZbgh9j09kTtI0Rl8mg9GmG5hd
+					b0yX9VCOeu+V00W5SKQC6Psk+sO7uWkPUU1V
+					7jcuovcQtnh70p7Bw1DR3nPOgeXib3h0mX7D
+					q6n2Nngwhif2/7MaRqQuo03i9MDWGshXeWER
+					ubyGkbHrItjTKKjlzFen85fVVcPOs6tbGr73
+					DBOtWSmpb0FCJvOYw6HzvQhn1+t6oGFHnfju
+					XIGXGuXpm5yA4K+lnsAFf3pXk1CYlMBsOlv4
+					JQ8MIhbTxOmZkQRcoE7AbapEBxhxS0IBFb8O
+					HMC6dKUW9XVtHdkNeg== )
+A6TKDEP111VN7FQLGIQ3QVOUA4IV9PM6.reda-boussabat.sb.uclllabs.be.	300 IN NSEC3 1 1 10 DA39A3EE5E6B4B0D (
+					AHCU28P8BV0DHCBR5VH1S39870NIKANV
+					A NS SOA MX AAAA RRSIG DNSKEY NSEC3PARAM )
+			300	RRSIG	NSEC3 7 5 300 (
+					20210101122103 20201202122103 6582 reda-boussabat.sb.uclllabs.be.
+					CdNJpfEoAy1L/lvEqHAHknZ5CMXAQnUl0roW
+					bl7x4DjXhZ+wqOwcLzJHQgYNy+I6yGTVjgUE
+					S26BSCtpepdRdBprTvFD8hY+M/WW559AFMU+
+					/rZ9vuvh1qp1FU/I1U3lGS/fgtMc1pHG4Xi0
+					IWiQEUbMUv7iLEIbpEL1P2RWjTV23v1KgU9z
+					MFYi5G22gdcB1KZrMlqR2s2oDCXBOV3Xl0Bn
+					MdHMlDESVVdq4rndzXE/HRCBwsjWa6+eNg8u
+					jMbRKhD3/uDq+ab9lNL6MY02SWsF2htzq2iG
+					RvQm5N1ZqncsyCzZuZJ/HRhoWsbgLamJycoO
+					At2Tl1O2aCkkfkLimg== )
