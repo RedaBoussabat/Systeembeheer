@@ -1,7 +1,7 @@
 
 zone "reda-boussabat.sb.uclllabs.be" {
 	type master;
-	file "/etc/bind/zones/db.reda-boussabat.sb.uclllabs.be";
+	file "/etc/bind/zones/db.reda-boussabat.sb.uclllabs.be.signed";
 	notify yes;
  	allow-transfer {
 		 localhost;

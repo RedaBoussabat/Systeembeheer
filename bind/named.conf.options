@@ -6,11 +6,15 @@ options {
 	};
 
 	forward only;
-	dnssec-validation auto;
 	auth-nxdomain no;
 	listen-on-v6 { any; };
 
 	recursion no;
+
+	dnssec-enable yes;
+	dnssec-validation yes;
+	dnssec-lookaside auto;
+
 
 //	allow-transfer {
 //		localhost;
