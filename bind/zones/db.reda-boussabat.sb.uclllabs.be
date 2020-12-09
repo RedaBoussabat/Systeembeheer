@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	ns.reda-boussabat.sb.uclllabs.be. root.reda-boussabat.sb.uclllabs.be. (
-			2020110815	; Serial
+			2020110821	; Serial
 			300		; Refresh
 			300		; Retry
 			300		; Expire
@@ -34,7 +34,6 @@ www1				IN	A	193.191.177.198
 www2				IN	A	193.191.177.198
 test				IN	A	193.191.177.254
 website				IN	A	193.191.177.198
-
 secure				IN	A	193.191.177.198
 supersecure			IN	A	193.191.177.198	
 
@@ -54,3 +53,4 @@ secure	IN	A	193.191.177.198
 supersecure	IN	A	193.191.177.198
 $INCLUDE Kreda-boussabat.sb.uclllabs.be.+007+06582.key
 $INCLUDE Kreda-boussabat.sb.uclllabs.be.+007+11680.key
+loadbalance	IN	A	193.191.177.198

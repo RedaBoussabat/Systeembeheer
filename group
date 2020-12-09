@@ -85,3 +85,6 @@ nprobe:x:995:
 ntopng:x:994:
 ftp:x:137:
 mystery1_2014:x:1003:
+haproxy:x:138:
+docker:x:139:
+logstash:x:993:
